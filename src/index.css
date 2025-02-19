@@ -4,11 +4,9 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  transform: scale(0.9);  /* Shrinks the content to 80% of its original size */
+  color: #fff;
+  background-color: #111;
   transform-origin: top left;
-  width: 110%;  /* Keeps scaling from the top-left corner */
 }
 
 
@@ -16,8 +14,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  min-width: 260px;
+  min-height: 60vh;
+  margin-right: 100px;
 }
 
 button {
